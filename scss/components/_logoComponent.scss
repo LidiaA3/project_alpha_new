@@ -1,0 +1,22 @@
+.logo {
+    color: var(--accent-color);
+
+    &__name, &__claim {
+        display: flex;
+        justify-content: center;
+
+        & * {
+            margin: 0;
+            font-size: inherit;
+        }
+    }
+
+    &__name {
+        font-size: 3.2rem;
+    }
+
+    &__claim {
+        font-size: 1.6rem;
+        transform: translateY(-0.6rem);
+    }
+}

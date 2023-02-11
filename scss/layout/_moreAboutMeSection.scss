@@ -1,0 +1,24 @@
+.moreaboutme {
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    &__item {
+        & img {
+            width: 100%;
+            height: 25rem;
+            border-radius: 1rem;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+    .moreaboutme {
+        &__content {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+}

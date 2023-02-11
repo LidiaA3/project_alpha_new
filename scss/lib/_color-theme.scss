@@ -1,0 +1,32 @@
+/*--FUNCTION CLASSES FOR THEME SWITCH MODE*/
+
+.light-mode {
+    --bg-color: var(--color-white);
+    --bg-color-menu: var(--color-white-a-09);
+    --bg-img: linear-gradient(0deg, var(--color-crimson-a-04), var(--color-crimson-a-04)), url(../imgs/intro.jpg);
+    --bg-footer: var(--color-crimson);
+    --text-color: var(--color-dark);
+    --accent-color: var(--color-crimson);
+    --bg-accent: var(--color-light);
+    --text-color-beta: var(--color-grey-dark);
+    --bg-color-beta: var(--color-light-a-5a);
+    --btn-bg: var(--color-light);
+    --btn-color: var(--color-crimson);
+    --btn-bg-hover: var(--color-cream);
+}
+
+.dark-mode {
+    --bg-color: var(--color-crimson-dark);
+    --bg-color-menu: var(--color-crimson-dark-a-08);
+    --bg-img: linear-gradient(0deg, var(--color-crimson-a-07), var(--color-crimson-a-07)), url(../imgs/intro.jpg);
+    --bg-footer: var(--color-crimson-light);
+    --text-color: var(--color-light);
+    --text-color-dark: var(--color-dark);
+    --accent-color: var(--color-accent);
+    --bg-accent: var(--color-crimson-light);
+    --text-color-beta: var(--color-cream);
+    --bg-color-beta: var(--color-grey-dark-a-5a);
+    --btn-bg: var(--color-light);
+    --btn-color: var(--color-crimson);
+    --btn-bg-hover: var(--color-grey-dark);
+}

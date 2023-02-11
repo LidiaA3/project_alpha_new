@@ -1,0 +1,111 @@
+/*--UTILIDADES*/
+
+/*--fuentes*/
+.font-weight--bold {
+    font-weight: 700;
+}
+.font-weight--thin {
+    font-weight: 100;
+}
+.font-weight--light {
+    font-weight: 300;
+}
+.font-style--italic {
+    font-style: italic;
+}
+
+/*--margenes*/
+
+.margin-section {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+/*--scroll margin*/
+.scroll-margin-top {
+    scroll-margin-top: 5rem;
+}
+
+/*--bordes svg*/
+
+.rects {
+    rx: 0.04;
+}
+
+/*--display none*/
+.display-none {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/*--colors */
+.color-crimson {
+    color: #4b0000;
+}
+.bg-color-crimson { /*color-bg-crimson (better)*/
+    background-color: #4b0000;
+}
+
+.color-cream {
+    color: #f3e3e2;
+}
+.bg-color-cream {
+    background-color: #f3e3e2;
+}
+
+.color-crimson-dark {
+    color: #140000;
+}
+.bg-color-crimson-dark {
+    background-color: #140000;
+}
+
+.color-crimson-light {
+    color: #613737;
+}
+.bg-color-crimson-light {
+    background-color: #613737;
+}
+
+.color-dark {
+    color: #0c0c1e;
+}
+.bg-color-dark {
+    background-color: #0c0c1e;
+}
+
+.color-dark-grey {
+    color: #5b5a65;
+}
+.bg-color-dark-grey {
+    background-color: #5b5a65;
+}
+
+.color-medium-grey {
+    color: #aea3a3;
+}
+.bg-color-medium-grey {
+    background-color: #aea3a3;
+}
+
+.color-light-grey {
+    color: #aba7ad;
+}
+.bg-color-light-grey {
+    background-color: #aba7ad;
+}
+
+.color-light {
+    color: #faf5f4;
+}
+.bg-color-light {
+    background-color: #faf5f4;
+}
+
+/*--filtro imagenes */
+.img-filter {
+    filter: saturate(30%);
+}

@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lidia Aullana - About</title>
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="light-mode">
     <!--HERE START THE MODAL SECTION-->
     <dialog class="modal" id="js-modal-container">
-        <div class="modal__maincontents animation">
+        <div class="modal__maincontent animation">
             <div class="logo color-light">
                 <div class="logo__name">
                     <p class="font-weight--bold">Lidia</p>
@@ -24,7 +25,7 @@
             <p>Mi nombre es Lidia Aullana. Soy graduada en Ingeniería en Diseño Industrial y Desarrollo de Productos por la Universidad Politécnica de Valencia. He cursado el Máster en Artes Gráficas en la misma universidad. En la actualidad estudio un postgrado en Diseño y Desarrollo Interactivo Digital.</p>
             <button class="btn btn--full-width">saber más</button>
         </div>
-        <div class="modal__iconcontainer animation">
+        <div class="modal__icons animation">
             <a href="https://es.linkedin.com/in/lidia-aullana-083433213" target="_blank"><svg width="1.8rem" height="1.8rem" viewBox="0 0 100 100">
                 <use xlink:href="#linkedin"></use>
             </svg></a>
@@ -115,9 +116,9 @@
 
     <!--HERE START THE MAIN CONTENT OF THE PAGE-->
     <nav class="animacion">
-        <svg id="js-button-toggle" class="menu-toggle" width="58" height="36" viewBox="0 0 58 36">
+        <svg id="js-button-toggle" class="menu__toggle" width="58" height="36" viewBox="0 0 58 36">
             <use xlink:href="#menu-hamburguer" id="js-open-menu"></use>
-            <use xlink:href="#menu-blade" id="js-close-menu"></use>
+            <use xlink:href="#menu-blade" id="js-close-menu" class="display-none"></use>
         </svg>     
         <ul id="js-id-menu" class="menu">
             <li class="menu__item"><a href="#">Inicio</a></li>
@@ -129,26 +130,30 @@
         </ul>
     </nav>
 
-    <header>
+    <header class="margin-section">
         <div class="logo">
             <div class="logo__name">
-                <h2>Lidia Aullana</h2>
+                <h2><span class="font-weight--bold">Lidia</span><span class="font-weight--thin">Aullana</span></h2>
             </div>
             <div class="logo__claim">
-                <h1>frontend developer</h1>
+                <h1><span class="font-weight--thin">frontend</span><span class="font-weight--bold">developer</span></h1>
             </div>
         </div>
         <p>Diseñadora de productos, diseñadora gráfica y diseñadora web.</p>
     </header>
 
-    <section class="knowncontainer">
+    <section class="known margin-section" id="conocimientos">
         <h3>Conocimientos</h3>
         <div class="known__intro">
-            <p>El haber estudiado diseño en diferentes campos, me permite adaptarme a situaciones diversas y analizar los proyectos teniendo en cuenta todas las variantes posibles.</p>
-            <img class="img-filter" src="imgs/bocetando.jpg" alt="Imagen propia realizando bocetos de productos para proyectos de clase.">
+            <div class="known__intro__text">
+                <p>El haber estudiado diseño en diferentes campos, me permite adaptarme a situaciones diversas y analizar los proyectos teniendo en cuenta todas las variantes posibles.</p>
+            </div>
+            <div class="known__intro__img">
+                <img class="img-filter" src="imgs/bocetando.jpg" alt="Imagen propia realizando bocetos de productos para proyectos de clase.">
+            </div>
         </div>
-        <div class="known__boxcontainer">
-            <div class="known__box">
+        <div class="known__box">
+            <div class="known__box__item">
                 <svg width="3.8rem" height="3.8rem" viewBox="0 0 100 100">
                     <use xlink:href="#icon3d"></use>
                 </svg>
@@ -157,7 +162,7 @@
                     <p class="font-weight--light">AutoCAD, 3D Max, Rhinoceros 3D, SOlidworks, Keyshot.</p>
                 </div>
             </div>
-            <div class="known__box">
+            <div class="known__box__item">
                 <svg width="3.8rem" height="3.8rem" viewBox="0 -16.5 100 100">
                     <use xlink:href="#iconpc"></use>
                 </svg>
@@ -166,7 +171,7 @@
                     <p class="font-weight--light">Illustrator, InDesign, Glyphs, Photoshop, After Effects, Audacity, Wondershare Filmora.</p>
                 </div>
             </div>
-            <div class="known__box">
+            <div class="known__box__item">
                 <svg width="3.8rem" height="3.8rem" viewBox="0 -6.5 100 100">
                     <use xlink:href="#icondev"></use>
                 </svg>
@@ -182,19 +187,19 @@
         <img src="imgs/imagenpropia.jpg" alt="Retrato frontal Lidia Aullana">
     </section>
 
-    <section class="strengthscontainer">
-        <p class="padding">Soy una persona muy trabajadora y creativa. Me gusta formarme y aprender siempre cosas nuevas. Tengo una gran capacidad de aprendizaje. Además, soy muy organizada y siempre trato de mantener ese orden en todo lo que hago.</p>
-        <div class="strengths__tittlecontainer">
-            <h3 class="strengths__tittle">fortalezas</h3>
+    <section class="strengths" id="fortalezas">
+        <p class="margin-section">Soy una persona muy trabajadora y creativa. Me gusta formarme y aprender siempre cosas nuevas. Tengo una gran capacidad de aprendizaje. Además, soy muy organizada y siempre trato de mantener ese orden en todo lo que hago.</p>
+        <div class="strengths__tittle">
+            <h3 class="strengths__tittle__text">fortalezas</h3>
             <svg width="100%" height="1rem">
-                <line class="strengths__line" x1="0" y1="50%" x2="100%" y2="50%"/>
+                <line class="strengths__tittle__line" x1="0" y1="50%" x2="100%" y2="50%"/>
             </svg>
         </div>
     </section>
 
-    <section class="moreaboutme">
+    <section class="moreaboutme margin-section" id="massobremi">
         <h3>Más sobre mí</h3>
-        <div class="moreaboutme__contents">
+        <div class="moreaboutme__content">
             <div class="moreaboutme__item">
                 <img src="imgs/teylibros.jpg" alt="Té y libro sobre una cama.">
                 <p>Me encanta el té y soy una fanática de los libros de misterio y aventuras.</p>
@@ -214,7 +219,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="contacto">
         <a class="btn btn--full-width" href="mailto:lidia23-99@hotmail.es">
             <svg width="2.4rem" height="2.4rem" viewBox="0 -10 100 100">
                 <use xlink:href="#iconmail"></use>
@@ -223,7 +228,7 @@
         </a>
         <p>telf. 622 627 900</p>
         <p>dirección Burjassot 46100, Valencia</p>
-        <div class="footer__iconcontainer">
+        <div class="icons">
             <a href="https://es.linkedin.com/in/lidia-aullana-083433213" target="_blank"><svg width="2.4rem" height="2.4rem" viewBox="0 0 100 100">
                 <use xlink:href="#linkedin"></use>
             </svg></a>
@@ -243,4 +248,7 @@
     </footer>
     
 </body>
+
+<script src="js/basics.js"></script>
+<script src="js/intro-animacion.js"></script>
 </html>

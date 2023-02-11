@@ -1,0 +1,16 @@
+.icons, .modal__icons {
+    padding: 1.8rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 0.8rem;
+
+    & svg {
+        fill: var(--color-light);
+
+        &:hover {
+            fill: var(--color-cream);
+            stroke: var(--accent-color);
+        }
+    }
+}

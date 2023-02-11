@@ -1,0 +1,50 @@
+.btn {
+    width: 8rem;
+    background-color: var(--btn-bg);
+    color:var(--btn-color);
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    margin: 1.8rem 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--color-cream);
+    }
+
+    & svg {
+        fill: var(--btn-color);
+    }
+
+    &--secondary {
+        border: 1px solid var(--text-color-beta);
+        color: var(--text-color-beta);
+        background-color: var(--bg-color-beta);
+
+        &:hover {
+            background-color: var(--btn-bg-hover);
+        }
+
+        & svg {
+            fill: var(--text-color-beta);
+        }
+    }
+
+    &--full-width {
+        width: 100%;
+        max-width: 50rem;
+    }
+
+    &--small {
+        padding: 0.5rem;
+        border-radius: 0.8rem;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
